@@ -22,3 +22,17 @@ p{
 .bg-whatsapp{
     background-color: rgb(0, 128, 64);
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 30px;
+}
