@@ -16,13 +16,15 @@
 <!--Começo do corpo da página-->
 <body class="bg-light">
     
+    <div type="hidden" id="inicio"></div><!--Divisão escondida para redirecionar o usuario para o topo do site-->
+
     <header id="home">
         <!-- Cabeçalho -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     
             <div class="container" >
                 <!-- Logo-->
-                <a href="#home" class="navbar-brand">
+                <a href="#inicio" class="navbar-brand">
                     <h1 class="display-6">XtemaTec</h1>
                 </a>
     
@@ -32,14 +34,19 @@
                 </button>
     
                 <div class="collapse navbar-collapse " id="navbarToggle">
+
                     <ul class="navbar-nav ms-auto">
+
                         <li class="nav-item">
                             <a href="#serviços" class="nav-link">Serviços</a>
                         </li>
+
                         <li class="nav-item">
                             <a href="#contato" class="nav-link">Contato</a>
                         </li>
+
                     </ul>
+
                 </div>
                 
             </div>
@@ -52,40 +59,61 @@
         <div class="container-fluid border"><!--Inicio do conteiner fluido-->
 
             <div class="row">
+
                 <div class="col">
                     <h1>Serviços</h1>
                 </div>
+
             </div>
             
             <div class="row p-5"><!--Inicio da rimeira linha de serviços-->
 
                 <div class="col">
+
                     <button name="services"  type="button" class="btn btn-primary bg-dark rounded-circle" data-bs-toggle="popover" title="0R$" data-bs-placement="bottom" data-bs-content="Seu computador tem um problema? Traga para fazer uma 'consulta'."><img src="img/consulta.jpg" class="rounded-circle" alt=""></button>
                     <p>Consulta</p>
+
                 </div>
 
                 <div class="col">
+
                     <button name="services" type="button" class="btn btn-primary bg-dark rounded-circle" data-bs-toggle="popover" title="50R$" data-bs-placement="bottom" data-bs-content="Reset da configuração padrão da maquina com o sistema operacional desejado."><img src="img/formatacao.jpg" class="rounded-circle" alt=""></button>
                     <p>Formatação</p>
+
                 </div>
 
                 <div class="col">
+
                     <button name="services" type="button" class="btn btn-primary bg-dark rounded-circle" data-bs-toggle="popover" title="20R$" data-bs-placement="bottom" data-bs-content="Reposição ou adição de peças á sua máquina."><img src="img/placamae.jpg" class="rounded-circle" alt=""></button>
                     <p>Troca de peças e upgrade</p>
+
                 </div>
 
             </div><!--Fim da rimeira linha de serviços-->
 
             <div class="row p-5"><!--Inicio da segunda linha de serviços-->
+
                 <div class="col">
+
                     <button name="services" type="button" class="btn btn-primary bg-dark rounded-circle" data-bs-toggle="popover" title="60R$" data-bs-placement="bottom" data-bs-content="Limpeza completa da máquina com reposição de pasta térmica."><img src="img/limpeza.jpg" class="rounded-circle" alt=""></button>
                     <p>Limpeza</p>
+
                 </div>
                     
                 <div class="col">
+
                     <button name="services" type="button" class="btn btn-primary bg-dark rounded-circle" data-bs-toggle="popover" title="80R$" data-bs-placement="bottom" data-bs-content="Limpeza completa da máquina com reposição de pasta térmica e limpeza de periféricos (mouse e teclado)."><img src="img/pcgamer.jpg" class="rounded-circle" alt=""></button>
                     <p>Limpeza (PC Gamer + Periféricos)</p>
+
                 </div>
+
+                <div class="col">
+
+                    <button name="services" type="button" class="btn btn-primary bg-dark rounded-circle" data-bs-toggle="popover" title="0R$" data-bs-placement="bottom" data-bs-content="Entre em contato pelo Instagram, WhatsApp ou mande mensagem pelo site para saber se podemos ajudar."><img src="img/interrogacao.jpg" class="rounded-circle" alt=""></button>
+                    <p>Qual serviço você deseja?</p>
+
+                </div>
+
             </div><!--Fim da segunda linha de serviços-->
 
         </div><!--Fim do conteiner fluido-->
@@ -96,13 +124,16 @@
     <section id="contato"><!--Inicio da secção de Contato-->
 
         <div class="container-fluid border bg-dark text-white">
+
             <div class="row">
+
                 <div class="col">
                     <h1>Contato</h1>
                 </div>
+
             </div>
             
-            <div class="row">
+            <div class="row" id="redes">
 
                 <div class="col"> 
                     <a href="https://www.instagram.com/xtema_tec/"><button type="button" class="btn p-3 col-md-4 mt-2 bg-instagram ">Instagram</button></a>
